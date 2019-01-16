@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(to right, red,green,blue)
+}
+div.contener{
+    margin: auto;
+    width: 90%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+#serious{
+    font-family: courier;
+    color: #000;
+    font-size: 25px;
+    background: linear-gradient(to right, White, black, grey);
+    border-style: groove;
+    border-width: 2.5px;
+    border-radius: 5px;
+    width: 100%;
+    float: none;
+}
+.pertama{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background:linear-gradient(to right, rgb(50, 50, 219), blue, darkblue);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.pertama li{
+    float: right;
+}
+.pertama li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.pertama li a:hover{
+    background-color: grey;
+}
+
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: blue;
+    border-width: 5px;
+    border-radius: 40px;    
+    background-color:yellow;
+    height: 500px;
+    width: 25%;
+    border-style: solid ;
+    border-color: #cc0000;
+    float: left;
+}
+div.content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: yellow;
+    background: blue;
+    width: 70%;
+    height: 500px;
+    float: right;
+}
+footer{
+    font-family: cursive;
+    font-size: 30px;
+    width: 100%;
+    height: 100px;
+}
